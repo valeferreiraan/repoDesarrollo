@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form name="datosBasicos" action="../inicio.html" method="">
+         
+        <h1>
+            <img src="../assets/img/amigos.png" width="50" height="50">
+            Datos Básicos
+        </h1>
+        
+        <label for="perfil">Describa su perfil</label>
+        <textarea rows="5" cols="100" name="perfil"></textarea>
+        
+
+        <br>
+        <br> 
+
+        <label for="tipoID">Tipo de identificación</label>
+        <select id="tipoID" nombre="tipoID"> 
+            <option value="0" selected="">
+                Seleccione un tipo de documento
+            </option>
+            <option value="NUIP">
+                Nunero Unico de Identificacion (NUIP)
+            </option>
+            <option value="TI">
+                Tarjeta de identidad
+            </option>
+            <option value="CC">
+                Cédula de ciudadania 
+            </option>
+            <option value="CE">
+                Cédula de extranjería 
+            </option>
+        </select>
+        <br><br>
+
+        <label for="ciudad">¿En qué ciudad vives?</label>
+            <select name="ciudad">
+                <option selected value="0"> Elige una ciudad</option>
+                <optgroup label="Cundinamarca">
+                    <option value="1">Bogotá</option>
+                    <option value="2">Chia</option>
+                </optgroup>
+                <optgroup label="Antioquia">
+                    <option value="4">Paisalandia</option>
+                    <option value="5">Envigado</option>
+                </optgroup>
+                <optgroup label="Santander">
+                    <option value="6">Bucaramanga</option>
+                    <option value="7">Barichara</option>
+                </optgroup>
+            </select>
+
+        <br>
+        <br>
+
+        <label for="numID">Número de identificación</label>
+        <input id="numID">
+
+        <br><br>
+
+        <label for="apellidos">Apellidos</label>
+        <input id="apellidos" type="text" name="apellidos">
+
+        <br><br>
+
+        <label for="nombre">Nombres</label>
+        <input id="nombre" type="text" name="nombre">
+
+        <br><br>
+        
+        <label for="genero">Géneros</label>
+        <input id="generoF" type="radio" name="genero"> Femenino
+        <input id="generoM" type="radio" name="genero"> Masculino
+        <input id="generoO" type="radio" name="genero"> Otro
+
+
+        <br><br>
+        
+        <label for="estadoCivil">Estado civil</label>
+        <input id="estadoCivilS" type="radio" name = "estadoCivil"> Soltero
+        <input id="estadoCivilC" type="radio" name="estadoCivil"> Casado
+        <input id="estadoCivilU" type="radio" name="estadoCivil"> Union libre
+        <input id="estadoCivilV" type="radio" name="estadoCivil"> Viudo(a)
+
+        <br><br>
+        
+        <label for="telefono">Número telefónico de contacto</label>
+        <input id="telefono">
+
+        <br><br>
+        
+        <label for="direccion">Dirección de residencia</label>
+        <input id="direccion" type="text" name="direccion">
+
+        <br><br>
+
+        <label for="correo">Correo electrónico de contacto</label>
+        <input id="correo">
+
+        <br><br>
+
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" name="password">
+
+        <br><br>
+
+        <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+        <input type="checkbox" id="series" name="series">
+        <label for="series">Ver Series</label>
+        <input type="checkbox" id="jugar" name="jugar">
+        <label for="jugar">Jugar Videojuegos</label>
+        <input type="checkbox" id="deportes" name="deportes">
+        <label for="deportes">Hacer Deporte</label>
+
+        <br><br>
+
+        <label for="archivo"> Sube aquí tu archivo</label>
+        <input type="file" name="archivo">
+    </form>        
+</body>
+</html>
