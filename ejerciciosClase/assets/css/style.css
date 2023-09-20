@@ -27,3 +27,12 @@ form{
 label{
     font-weight:900;
 }
+
+.p1{
+    /*class*/
+}
+
+#p2{
+    /*id*/
+    color:blueviolet;
+}
