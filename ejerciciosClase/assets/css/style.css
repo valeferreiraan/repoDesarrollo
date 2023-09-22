@@ -28,6 +28,9 @@ label{
     font-weight:900;
 }
 */
+body{
+    font-family: 'DM Sans', sans-serif;
+}
 
 h1,h3 {
     color: rgb(87, 70, 146);
@@ -81,4 +84,31 @@ body{
     font-size: 20px;
     font-family: 'Croissant One', cursive;
     color:blueviolet;
+}
+
+ul{
+    text-align: left;
+    color:blueviolet;
+    list-style-image: url("../img/flooor.png");
+}
+
+li{
+    text-align: left;
+    color:navy;
+}
+
+table{
+    
+    border:3px solid #000;
+    border-collapse: collapse;
+}
+th{
+    border: 3px solid #000;
+    border-collapse: collapse;
+    background-color: blueviolet;
+    color: white;
+}
+td{
+    border:3px solid #000; 
+    border-collapse: collapse;
 }
