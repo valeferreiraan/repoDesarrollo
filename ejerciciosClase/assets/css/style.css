@@ -96,7 +96,7 @@ li{
     text-align: left;
     color:navy;
 }
-
+/*
 table{
     
     border:3px solid #000;
@@ -111,4 +111,39 @@ th{
 td{
     border:3px solid #000; 
     border-collapse: collapse;
+}*/
+
+/*-------------Para la bio de esopo----------------*/
+h1#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+}
+
+img#esopo{
+    margin: 1cm;
+    width: 200px;
+    height: 300px;
+}
+
+table#yellowdashed{
+    
+    border:6px dashed #f8f550;
+    background-color: #15A085;
+    
+}
+
+p#white{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+}
+
+span.homero{
+    font-style: italic;
+    color: #f8f550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
 }
