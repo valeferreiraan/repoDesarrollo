@@ -1,0 +1,63 @@
+/*ID Y CLASES*/
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=IM+Fell+DW+Pica&display=swap');
+
+
+.azulito{
+    color: blue;
+    font-family: 'IM Fell DW Pica', serif;
+
+}
+
+.otro{
+    color: darkblue;
+    font-family: 'Fuggles', cursive;
+    font-size: 30px;
+}
+
+.folklore{
+    color: gray;
+    font-family: 'IM Fell DW Pica', serif;
+    font-style: italic;
+
+}
+
+h2{
+    font-size: 45px;
+    color: palevioletred;
+    font-family: 'IM Fell DW Pica', serif;
+    font-style: italic;
+}
+
+#Right{
+    text-align: right;
+}
+
+.homero{
+    font-style: italic;
+    color: #f8f550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.esopo{
+    width: 800px;
+    background-color: #15A085;
+    margin: 50px auto;
+    border: 6px dashed #f8f550;
+    padding: 30px 30px 30px 30px;
+}
+
+.esopo h2{
+    color: white;
+}
+
+.esopo p{
+    color: white;
+    text-align: justify;
+}
+.esopo img{
+    
+    width: 120px;
+    float: left;
+    margin-right: 30px;
+}
