@@ -35,6 +35,10 @@ body{
     font-family: 'Fredoka One', cursive;   
 }
 
+.contenido ul{
+    list-style-image: url("../img/imagenes/imagenes/lunalista.png");
+    
+}
 .personaje{
     width: 800px;
     background: linear-gradient(#F9A9FB,#F9D3FA);
@@ -52,6 +56,7 @@ body{
 }
 
 .personaje h2{
+    font-family: 'Fredoka One', cursive;  
     color: white;
     text-shadow: 2px 2px 4px black;
 
