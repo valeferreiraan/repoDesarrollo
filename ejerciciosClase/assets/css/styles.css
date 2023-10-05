@@ -20,9 +20,12 @@ body{
 
 }
 
+
 .titulo img{
     width: 150px;
+    
 }
+
 
 
 .contenido{
@@ -38,11 +41,12 @@ body{
 .contenido ul{
     list-style-image: url("../img/imagenes/imagenes/lunalista.png");
     
+    
 }
 .personaje{
     width: 800px;
     background: linear-gradient(#F9A9FB,#F9D3FA);
-    margin: 20px 30px;
+    margin: 20px 0px;
     padding: 30px 30px;
     box-shadow: 3px 3px 7px #999999;
 }
@@ -52,6 +56,15 @@ body{
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+    transition: scale 1s;
+
+    
+    
+}
+
+.personaje img:hover{
+    transform: rotate(-50deg) scale(1.5);
+    transition: transform 2s linear 0s;
     
 }
 
@@ -66,9 +79,110 @@ body{
     text-align: justify;
 }
 .boton{
+    width: 120px;
+    background-color: blue;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #999999;
+    
+}
+.boton a{
+    margin: 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: rgb(3, 3, 156);
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
 
 }
+
 
 .cajaprincipal{
+    width: 270px;
+    height: 350px;
+    background-color: #F9A9FB;
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 20px #000000;
+    overflow: hidden;
 
 }
+
+.encabezado{
+    background-color: #F9A9FB;
+    color: black;
+    font-family: 'Fredoka One', cursive; 
+    padding: 20px 0;
+
+}
+.cajaperfil{
+    width: 540px;
+}
+
+
+.cajaperfil:hover{
+    transform: translateY(-270px);
+    transition: transform 2s linear 1s;
+
+}
+
+.fotos, .datos{
+    width: 270px;
+    text-align: center;
+    margin: 20px 0;
+    float: left;
+}
+
+.fotos img{
+    width: 150px;
+    border: 6px solid #ffffff;
+    border-radius: 50%;
+}
+
+.otro {
+    width: 100px;
+    
+}
+
+/*
+.cajaprincipal{
+    width: 270px;
+    height: 350px;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 20px #000000;
+    overflow: hidden;
+
+}
+
+.encabezado{
+    background-color: white;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0;
+}
+
+.cajaperfil{
+    width: 540px;
+}
+
+.cajaperfil:hover{
+    transform: translateX(-270px);
+    transition: transform 1s linear 1s;
+}
+
+.foto, .otro{
+    width: 270px;
+    text-align: center;
+    margin: 25px 0;
+    float: left;
+}*/
