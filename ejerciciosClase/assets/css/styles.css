@@ -128,7 +128,7 @@ body{
 
 
 .cajaperfil:hover{
-    transform: translateY(-270px);
+    transform: translateX(-270px);
     transition: transform 2s linear 1s;
 
 }
