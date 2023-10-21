@@ -71,3 +71,86 @@
   background-color: var(--bs-btn-bg);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.container{
+    margin: 20px;
+}
+
+.eras{
+    align-items: space-between !important;
+}
+
+.btn-debut{
+    background-color: #b9d2b5 !important; 
+    border-color: #b9d2b5 !important;
+    color:#fff !important; 
+}
+
+.btn-fearless{
+    background-color: #f4cb8d !important; 
+    border-color: #f4cb8d !important;
+    color:#fff !important; 
+}
+
+
+.btn-speak-now{
+    background-color: #d1b2d2 !important; 
+    border-color: #d1b2d2 !important;
+    color:#fff !important; 
+}
+
+.btn-red{
+    background-color: #823549 !important;
+    border-color: #823549 !important;
+    color: #fff !important;
+}
+
+
+
+
+.btn-1989{
+    background-color: #b5e9f6 !important;
+    border-color: #b5e9f6 !important;
+    color: #fff !important;
+}
+
+.btn-rep{
+    background-color: #847e80 !important;
+    border-color: #847e80 !important;
+    color: #fff !important;
+}
+
+.btn-lover{
+    background-color: #f9b2d0  !important;
+    border-color: #f9b2d0  !important;
+    color: #fff !important;
+}
+
+.btn-folklore{
+    background-color: #cfcac6   !important;
+    border-color: #cfcac6  !important;
+    color: #fff !important;
+}
+
+.btn-evermore{
+    background-color: #c8ae95  !important;
+    border-color: #c8ae95  !important;
+    color: #fff !important;
+}
+
+.btn-midnights{
+    background-color: #434961  !important;
+    border-color: #434961  !important;
+    color: #fff !important;
+}
+
+
+.setlist{
+    padding-top: 50px;
+}
+.container h1{
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 700;
+    
+}
